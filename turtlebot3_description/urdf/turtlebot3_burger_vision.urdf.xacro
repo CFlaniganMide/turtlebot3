@@ -166,67 +166,67 @@
     <child link="camera_optical_link"/>
   </joint>
 
-<!--  &lt;!&ndash; Camera left &ndash;&gt;-->
-<!--  <link name="camera_link_left">-->
-<!--    <collision>-->
-<!--      <origin xyz="0 0 0" rpy="0 0 0"/>-->
-<!--      <geometry>-->
-<!--        <box size="${camera_link} ${camera_link} ${camera_link}"/>-->
-<!--      </geometry>-->
-<!--    </collision>-->
+  <!-- Camera left -->
+  <link name="camera_link_left">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${camera_link} ${camera_link} ${camera_link}"/>
+      </geometry>
+    </collision>
 
-<!--    <visual>-->
-<!--      <origin xyz="0 0 0" rpy="0 0 0"/>-->
-<!--      <geometry>-->
-<!--        <box size="${camera_link} ${camera_link} ${camera_link}"/>-->
-<!--      </geometry>-->
-<!--      <material name="red"/>-->
-<!--    </visual>-->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${camera_link} ${camera_link} ${camera_link}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
 
-<!--    <inertial>-->
-<!--      <mass value="1e-5" />-->
-<!--      <origin xyz="0 0 0" rpy="0 0 0"/>-->
-<!--      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />-->
-<!--    </inertial>-->
-<!--  </link>-->
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
 
-<!--  <joint name="camera_joint_left" type="fixed">-->
-<!--    <axis xyz="0 1 0" />-->
-<!--    <origin xyz="0.05 0.1 0.1" rpy="0 0 0"/>-->
-<!--    <parent link="base_link"/>-->
-<!--    <child link="camera_link_left"/>-->
-<!--  </joint>-->
+  <joint name="camera_joint_left" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="0.05 0.1 0.1" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="camera_link_left"/>
+  </joint>
 
-<!--  &lt;!&ndash; Camera right &ndash;&gt;-->
-<!--  <link name="camera_link_right">-->
-<!--    <collision>-->
-<!--      <origin xyz="0 0 0" rpy="0 0 0"/>-->
-<!--      <geometry>-->
-<!--        <box size="${camera_link} ${camera_link} ${camera_link}"/>-->
-<!--      </geometry>-->
-<!--    </collision>-->
+  <!-- Camera right -->
+  <link name="camera_link_right">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${camera_link} ${camera_link} ${camera_link}"/>
+      </geometry>
+    </collision>
 
-<!--    <visual>-->
-<!--      <origin xyz="0 0 0" rpy="0 0 0"/>-->
-<!--      <geometry>-->
-<!--        <box size="${camera_link} ${camera_link} ${camera_link}"/>-->
-<!--      </geometry>-->
-<!--      <material name="red"/>-->
-<!--    </visual>-->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${camera_link} ${camera_link} ${camera_link}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
 
-<!--    <inertial>-->
-<!--      <mass value="1e-5" />-->
-<!--      <origin xyz="0 0 0" rpy="0 0 0"/>-->
-<!--      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />-->
-<!--    </inertial>-->
-<!--  </link>-->
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
 
-<!--  <joint name="camera_joint_right" type="fixed">-->
-<!--    <axis xyz="0 1 0" />-->
-<!--    <origin xyz="0.05 -0.1 0.1" rpy="0 0 0"/>-->
-<!--    <parent link="base_link"/>-->
-<!--    <child link="camera_link_right"/>-->
-<!--  </joint>-->
+  <joint name="camera_joint_right" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="0.05 -0.1 0.1" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="camera_link_right"/>
+  </joint>
 
   <joint name="imu_joint" type="fixed">
     <parent link="base_link"/>

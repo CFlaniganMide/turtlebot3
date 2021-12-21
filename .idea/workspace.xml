@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34c07fd0-0bc0-4cd6-aa45-de8ae3f58e60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/turtlebot3_navigation/param/costmap_common_params_burger_vision.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turtlebot3_navigation/param/dwa_local_planner_params_burger_vision.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtlebot3_description/urdf/turtlebot3_burger_vision.gazebo.xacro" beforeDir="false" afterPath="$PROJECT_DIR$/turtlebot3_description/urdf/turtlebot3_burger_vision.gazebo.xacro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtlebot3_slam/config/turtlebot3_lds_2d.lua" beforeDir="false" afterPath="$PROJECT_DIR$/turtlebot3_slam/config/turtlebot3_lds_2d.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turtlebot3_slam/config/turtlebot3_lds_2d_gazebo.lua" beforeDir="false" afterPath="$PROJECT_DIR$/turtlebot3_slam/config/turtlebot3_lds_2d_gazebo.lua" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22bnoh99aUrb0u190KslqGraaSf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../turtlebot3_simulations" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34c07fd0-0bc0-4cd6-aa45-de8ae3f58e60" name="Changes" comment="" />
+      <created>1640115330606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640115330606</updated>
+      <workItem from="1640115336069" duration="9000" />
+    </task>
+    <servers />
+  </component>
+</project>
